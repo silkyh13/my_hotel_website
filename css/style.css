@@ -15,6 +15,7 @@ html, body {
 a {
   color: #1028;
   text-decoration: none;
+
 }
 
 /* adds padding between HNYC and (Home, About, and Contact) */
@@ -78,6 +79,16 @@ p {
   background: #f7c08a;
   color: #1028;
 }
+
+.large-heading {
+  font-size: 40px;
+}
+.clr {
+  clear: both;
+}
+.padding-1 {padding: 10px 0;}
+.padding-2 {padding: 20px 0;}
+.padding-3 {padding: 30px 0;}
 /* Navbar */
 
 #navbar {
@@ -114,7 +125,7 @@ p {
 /* by adding the navbar a.current, makes that link look like its always hovered on */
 #navbar ul li a:hover,
 #navbar ul li a.current {
-  background: #1028;
+  background: #333;
   color: rgb(247, 192, 138);
 }
 
@@ -164,4 +175,72 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* About Info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right  img{
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+  height: 600px;
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials  h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonials img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#testimonials .testimonials  {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 20px;
 }
